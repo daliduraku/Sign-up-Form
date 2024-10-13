@@ -6,11 +6,16 @@
 
 body{
     display: flex;
-    flex-direction: row;
     height: 100vh;
 }
+.outter-most-container{
+    display: flex;
 
+}
 .left-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     background-image: url('./unsplash.jpg');
     height: 100%;
     width: 100%;
@@ -21,22 +26,35 @@ body{
     margin:auto;
     padding:0;
     align-items: center;
+    flex: 1;
 }
-
-
+footer{
+    color: rgb(228, 223, 223);
+    align-self: center;
+    font-size: small;
+}
 .content-container{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(25, 21, 21, 0.5);
     padding: 10px;
+    
 }
 .content-container > img{
-    max-width: 15%;
+    max-width: 20%;
 }
 
 .content-container > h2{
     color: white;
     font-family: 'Norse', sans-serif;
     font-size: 75px;                                            
+}
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    justify-content: center;
+    
 }
