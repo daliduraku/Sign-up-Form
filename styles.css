@@ -18,7 +18,7 @@ body{
 .left-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     background-image: url('./unsplash.jpg');
     height: 100%;
     width: 100%;
@@ -35,6 +35,11 @@ footer{
     color: rgb(228, 223, 223);
     align-self: center;
     font-size: small;
+    margin-bottom: 10px;
+}
+
+.underline{
+    text-decoration: underline;
 }
 .content-container{
     display: flex;
@@ -42,7 +47,7 @@ footer{
     align-items: center;
     background-color: rgb(25, 21, 21, 0.5);
     padding: 10px;
-    
+    margin-top: 175px;
 }
 .content-container > img{
     max-width: 20%;
@@ -86,7 +91,7 @@ footer{
     border: none;
     background-color: white;
     box-shadow: 15px;
-    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
 
 }
 .form-container > h2{
@@ -127,7 +132,7 @@ input:invalid {
 input:focus {
     outline: none;
     border-color: #007BFF;
-    box-shadow: 5px;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
 }
 .last-container{
     display: flex;
@@ -145,6 +150,10 @@ button{
     border: none;
     max-width: 30%;
     margin-bottom: 15px;
+}
+
+.question-container{
+    margin-top: 3px;
 }
 
 .highlight{
