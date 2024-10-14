@@ -7,6 +7,7 @@
 body{
     display: flex;
     height: 100vh;
+    
 }
 .outter-most-container{
     display: flex;
@@ -55,6 +56,68 @@ footer{
     display: flex;
     flex-direction: column;
     flex: 2;
-    justify-content: center;
+    justify-content: space-evenly;
+    background-color: #f9f9f9;
     
+}
+
+.right-container > .first-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 620px;
+}
+
+.first-container > p{
+    padding: 10px;
+}
+
+.form-container{
+    width: 100%; 
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 15px;
+}
+.form-container > h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    flex: 0 0 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:focus {
+    outline: none;
+    border-color: #007BFF;
 }
