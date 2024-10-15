@@ -48,6 +48,7 @@ footer{
     background-color: rgb(25, 21, 21, 0.5);
     padding: 10px;
     margin-top: 175px;
+    width: 100%;
 }
 .content-container > img{
     max-width: 20%;
